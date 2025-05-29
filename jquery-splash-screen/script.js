@@ -1,7 +1,7 @@
 $(document).ready(function () {
   setTimeout(function () {
     $('#splash').fadeOut(600, function () {
-      $('body').css('visibility', 'visible');
+      $('#content').fadeIn(400);
     });
   }, 2000);
 });
