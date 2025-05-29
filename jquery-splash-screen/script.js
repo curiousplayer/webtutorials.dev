@@ -3,5 +3,5 @@ $(document).ready(function () {
     $('#splash').fadeOut(600, function () {
       $('#content').fadeIn(400);
     });
-  }, 2000);
+  }, 2100);
 });
